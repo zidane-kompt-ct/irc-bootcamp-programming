@@ -17,20 +17,37 @@ In the bootcamp, we began by learning about the tools used by each team in IRC. 
 <li> myservo.write(0);.<br> Purpose: Moves the servo motor to 0 degrees.</li>
 <li> delay(1000);. <br> Purpose: Waits for 1 second (1000 milliseconds) before the next command.</li>
 <li> Repeat the code <strong>but</strong> change the degrees to 90 and then to 180 </li>
+</ol> 
+
+
+<h3>🔁 Summary of Program Flow:</h3>
+<ol>
+
+<li>Move servo to 0°, wait 1 second.</li>
+<li>Move servo to 90°, wait 1 second.</li>
+<li>Move servo to 180°, wait 1 second.</li>
+<li>Repeat forever.</li>
 </ol>
 
 
 🧩 ESP32 Explaining
 <ol>
-<li>    </li>
-
+<li> pinMode(26, OUTPUT);Purpose: Sets pin 26 as an output pin.<br>Why? This allows you to send signals to pin 26 (turning an LED on or off) rather than receiving signals from it.</li>
+<li> void loop().<br>Purpose: This function loops continuously after setup() finishes running.</li>
+<li> digitalWrite(26, 1);.<br>Purpose: Sets pin 26 to HIGH (1), which means it sends a 5V signal (often used to turn on an LED or trigger another component).</li>
+<li> digitalWrite(26, 0);.<br>Purpose: Sets pin 26 to LOW (0), which means it sends a 0V signal (turning off an LED or deactivating the component).</li>
+<li> digitalWrite(26, 0);.<br>Purpose: This is another LOW signal to pin 26. This line might seem redundant, but it still ensures the pin remains at LOW. </li>
+<li> delay(1000);.<br>Purpose: Waits for 1000 milliseconds (1 second) before repeating the loop.</li>
 </ol>
 
-
-
-
-
-
+<h3>🔁 Summary of Program Flow:</h3>
+<ol>
+<li> Set pin 26 HIGH (5V).</li>
+<li> Set pin 26 LOW (0V).</li>
+<li> Set pin 26 LOW (0V) again.</li>
+<li> Wait 1 second.</li>
+<li> Repeat.</li>
+</ol>
 
 
 
