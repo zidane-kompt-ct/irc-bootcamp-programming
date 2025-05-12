@@ -9,6 +9,29 @@ This journey has taught me that learning is not just about results, but about pe
 In the bootcamp, we began by learning about the tools used by each team in IRC. For me personally, as someone focusing on programming VTOLs, the basic skills I needed to master were Python and Roboflow. The essential skills for a programmer in IRC also include Python, C++, and Arduino. These are the foundations for anyone working in embedded systems. We were also taught how to deliver presentations about our division's results, so we could explain them clearly to other divisions. In addition, we learned about the toolchains commonly used, as well as how to collaborate effectively using GitHub.
 
 <h3>Explaining Arduino and ESP32</h3>
+🧩 Arduino Explaining
+<ol>
+<li> <strong>#include </strong> <Servo.h>.<br> Purpose: Includes the Servo library, which provides functions to control servo motors. </li>
+<li> Servo myservo;.<br> Purpose: Creates a Servo object named myservo that will be used to control the servo motor.</li>
+<li> myservo.attach(9);.<br> Purpose: Connects the myservo object to digital pin 9, where your servo motor's signal wire should be connected.</li>
+<li> myservo.write(0);.<br> Purpose: Moves the servo motor to 0 degrees.</li>
+<li> delay(1000);. <br> Purpose: Waits for 1 second (1000 milliseconds) before the next command.</li>
+<li> Repeat the code <strong>but</strong> change the degrees to 90 and then to 180 </li>
+</ol>
+
+
+🧩 ESP32 Explaining
+<ol>
+<li>    </li>
+
+</ol>
+
+
+
+
+
+
+
 
 
 
